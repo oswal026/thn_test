@@ -11,8 +11,8 @@ Requerimientos:
 ###Pasos para configurar el proyecto:
 
 1. Duplicar el archivo ".env.example" y renombrarlo a ".env".
-2. Ejecutar database.sql para crear la Base de Datos (Estructura y Datos).
-3. Configurar los parametros de conexión a la Base de Datos en el archivo ".env" (Línea 11 a 16).
+2. Configurar los parametros de conexión a la Base de Datos en el archivo ".env" (Línea 12 a 16).
+3. En el gestor de Base de datos MySQL, ejecutar el archivo "database.sql", ubicado en la raíz del proyecto, para crear la Base de Datos (Estructura y Datos).
 
 ###Pasos para ejecutar el proyecto:
 
