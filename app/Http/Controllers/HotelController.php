@@ -59,7 +59,7 @@ class HotelController extends Controller
 
         }catch(\Exception $e){
 
-            $errorMsg = "Sorry, the hotel ID you were looking for at this URL was not found.";
+            $errorMsg = "Lo sentimos, no se encontró el ID de hotel que buscaba en esta URL.";
             return view('errors.404', compact('errorMsg'));
         }
     }
